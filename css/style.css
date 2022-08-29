@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400&family=Lato:wght@300&family=Montserrat:wght@100&family=Nanum+Gothic&family=Playfair+Display&family=Poppins:wght@100&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background: #333;
+    font-family: 'Fira Sans';
+    overflow: hidden;
+}
+
+
+.menu {
+    width: 50em;
+    height: 30em;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 1px #111;
+    transform: translateY(-40em);
+}
+
+.apps-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.apps-icon {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    filter: invert(100%);
+}
+
+.apps-menu {
+    transform: translate(1em, -5em);
+}
+
+.menu {
+    width: 16.5em;
+    height: 25em;
+    overflow: auto;
+    background-color: #444;
+}
+
+.products-apps {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.raspberry-product {
+    width: 5em;
+    height: 5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.raspberry-product:hover {
+    background-color: #555;
+}
+
+.raspberry {
+    width: 3.5em;
+    height: 3.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;    
+    flex-direction: column;
+    min-height: 80vh;
+    font-size: 25px;
+}
+
+.big-title {
+    color: #FFF;
+}
+
+.google-logo {
+    width: 1em;
+    height: 1em;
+    padding: 0.2em;
+}
+
+.search-bar {
+    height: 1.5em;
+    padding: 0.5em;
+    border-radius: 10px;
+    background: #444;
+    box-shadow: 1px 1px 4px 0.5px #555;
+}
+
+input {
+    width: 40vmax;
+    height: 1.5em;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    transform: translate(1em, -0.8em);
+}
+
+.shortcuts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.youtube {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    background: #444;
+    cursor: pointer;
+}
+
+.discord {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    background: #444;
+    cursor: pointer;
+}
+
+.twitch {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    background: #444;
+    cursor: pointer;
+}
+
+.amazon {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    background: #444;
+    cursor: pointer;
+}
+
+.netflix {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    background: #444;
+    cursor: pointer;
+}
+
+.youtube:hover {
+    transform: scale(1.10);
+    background-color: #555;
+}
+
+.discord:hover {
+    transform: scale(1.10);
+    background-color: #555;
+}
+
+.twitch:hover {
+    transform: scale(1.10);
+    background-color: #555;
+}
+
+.amazon:hover {
+    transform: scale(1.10);
+    background-color: #555;
+}
+
+.netflix:hover {
+    transform: scale(1.10);
+    background-color: #555;
+}
+
+.shortcuts img {
+    margin-top: 0.5em;
+}
+
+::selection {
+    color: #FFF;
+    background-color: #555;
+}
+
+input[type="search"]::-webkit-search-cancel-button {display: none;}
+
